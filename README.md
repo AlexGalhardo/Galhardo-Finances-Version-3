@@ -7,7 +7,7 @@
 
 - You can access: #
 
-### How To Install and Use Locally
+### Setup & Installation Guide
 
 
 ## LICENSE

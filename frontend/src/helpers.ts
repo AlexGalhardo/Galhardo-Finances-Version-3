@@ -30,32 +30,32 @@ export function transformStringInputValueMaskToNumber(value: string): number {
 
 export function getTransactionCategoryIcon(category: string) {
     switch (category) {
-        case "WAGE":
-            return `<i class="bi bi-building-fill-add"></i>`;
+        case "SALARY":
+            return 'bi-building-fill-add';
         case "FREELANCER":
-            return `<i class="bi bi-file-earmark-medical"></i>`;
+            return 'bi-file-earmark-medical'
         case "FOOD":
-            return `<i class="bi bi-apple"></i>`;
+            return 'bi-apple'
         case "SUBSCRIPTIONS":
-            return `<i class="bi bi-bookmark-star"></i>`;
+            return 'bi-bookmark-star'
         case "SHOP":
-            return `<i class="bi bi-shop"></i>`;
+            return 'bi-shop'
         case "ENTERTAINMENT":
-            return `<i class="bi bi-controller"></i>`;
+            return 'bi-controller'
         case "TRANSPORT":
-            return `<i class="bi bi-car-front-fill"></i>`;
+            return 'bi-car-front-fill'
         case "HOUSE":
-            return `<i class="bi bi-house-door"></i>`;
+            return 'bi-house-door'
         case "SERVICES":
-            return `<i class="bi bi-tools"></i>`;
+            return 'bi-tools'
         case "FIXED_INCOME":
-            return `<i class="bi bi-graph-up-arrow"></i>`;
+            return 'bi-graph-up-arrow'
         case "VARIABLE_INCOME":
-            return `<i class="bi bi-graph-down-arrow"></i>`;
+            return 'bi-graph-down-arrow'
         case "CRIPTOCURRENCIES":
-            return `<i class="bi bi-currency-bitcoin"></i>`;
+            return 'bi-currency-bitcoin'
         case "OTHERS":
-            return `<i class="bi bi-gem"></i>`;
+            return 'bi-gem'
         default:
             return "";
     }

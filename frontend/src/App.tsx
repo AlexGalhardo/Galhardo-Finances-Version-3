@@ -1,17 +1,16 @@
 import { useState } from 'react'
-import CurrentBalance from './components/dashboard/CurrentBalance'
-import Expenses from './components/dashboard/Expenses'
-import Investments from './components/dashboard/Investments'
-import NewDeposit from './components/modals/NewDeposit'
-import NewExpense from './components/modals/NewExpense'
-import NewInvestment from './components/modals/NewInvestment'
-import Navbar from './components/Navbar'
-import FilterTransactions from './components/FilterTransactions'
-import ExportTransactions from './components/ExportTransactions'
-import Transactions from './components/Transactions'
+import CurrentBalance from './Components/Dashboard/CurrentBalance'
+import Expenses from './Components/Dashboard/Expenses'
+import Investments from './Components/Dashboard/Investments'
+import NewDeposit from './Components/Modals/NewDeposit'
+import NewExpense from './Components/Modals/NewExpense'
+import NewInvestment from './Components/Modals/NewInvestment'
+import Navbar from './Components/Navbar'
+import FilterTransactions from './Components/FilterTransactions'
+import ExportTransactions from './Components/ExportTransactions'
+import Transactions from './Components/Transactions'
 
 function App() {
-
   return (
     <>
 		<Navbar />

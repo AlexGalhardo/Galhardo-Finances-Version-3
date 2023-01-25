@@ -22,7 +22,7 @@ function NewDeposit() {
 
 						<label>Category:</label>
 						<select className="form-select" name="deposit_category_selected" id="deposit_category" required>
-						<option value="WAGE" selected>WAGE</option>
+						<option value="SALARY" selected>SALARY</option>
 						<option value="FREELANCER">FREELANCER</option>
 						<option value="INVESTMENT_PROFIT">INVESTMENT PROFIT</option>
 						</select>

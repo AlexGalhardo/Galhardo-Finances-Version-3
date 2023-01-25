@@ -6,7 +6,7 @@ function FilterTransactions() {
 					<label>Category:</label>
 					<select className="form-select" id="search_transaction_category" name="search_transaction_category" required>
 						<option className="fw-bold" value="ALL" selected>ALL</option>
-						<option className="text-success fw-bold" value="WAGE">WAGE</option>
+						<option className="text-success fw-bold" value="SALARY">SALARY</option>
 						<option className="text-success fw-bold" value="FREELANCER">FREELANCER</option>
 						<option className="text-success fw-bold" value="INVESTMENT_PROFIT">INVESTMENT PROFIT</option>
 						<option className="text-danger fw-bold" value="FOOD">FOOD</option>
